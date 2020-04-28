@@ -11,8 +11,7 @@ class Transfer
   end 
   
   def valid?
-  
-    
+     > 0 && status == "open"
   end 
   
   
