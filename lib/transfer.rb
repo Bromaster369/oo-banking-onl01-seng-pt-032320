@@ -15,6 +15,8 @@ class Transfer
   end 
   
   def execute_transaction
-    BankAccount.balance - 50 
+   
   end   
+  
+  
 end
